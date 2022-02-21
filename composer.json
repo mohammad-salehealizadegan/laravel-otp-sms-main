@@ -1,0 +1,20 @@
+{
+    "name": "harirsoft/otpauth",
+    "type": "metapackage",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Harirsoft\\OtpAuth\\" : "src/"
+        }
+    },
+
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Harirsoft\\OtpAuth\\OtpAuthServiceProvider"
+            ]
+        }
+    }
+}
